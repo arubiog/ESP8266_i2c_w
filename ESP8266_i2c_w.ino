@@ -117,7 +117,7 @@ void loop() {
   Temp5 = I2Ctemp(i2cT5, 100);   // read the value from the sensor:
   
   delay(1000);
-  Adc = analogRead(in1pin);
+  Adc = analogRead(adcpin);
   delay(20);   
  // Set GPIO2 according to the request
   digitalWrite(Rele1pin, Rele1_value);
