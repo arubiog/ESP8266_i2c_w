@@ -16,12 +16,7 @@
 #define i2cT4 0x4C
 #define i2cT5 0x4D
 
-const char* ssid = "horizonte";
-const char* password = "Z0002CF9C470E";
-const char* ssid1 = "vodafoneC350";
-const char* password1 = "numancia73";
-const char* ssid2 = "albaguest";
-const char* password2 = "guest2010";
+
 
 int buzzpin=2;
 int ledpin=16;
